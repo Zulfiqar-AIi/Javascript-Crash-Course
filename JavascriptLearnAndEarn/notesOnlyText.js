@@ -4,3 +4,7 @@
 // DOM: Document Object Model
 
 // console.dir(window.document)=>(for checking the available directories in window on chrome(console) inspect option)
+
+// New progress is testing on github
+
+console.log("Hello bhaooo");
