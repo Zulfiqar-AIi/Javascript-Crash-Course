@@ -14,7 +14,7 @@ buttons.forEach(function (button) {
             case 'white':
                 body.style.backgroundColor = 'white';
                 body.style.color = 'black';
-                // h2.style.color = 'black';
+                // h2.style.color = 'black' ;
                 break;
             case 'blue':
                 body.style.backgroundColor = 'blue';
