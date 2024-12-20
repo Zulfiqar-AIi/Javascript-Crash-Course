@@ -56,7 +56,7 @@ const regularUser = {
 }
 
 // console.log(regularUser.fullname.userfullname);
-
+// -----------------------------------------------
 
 function addTwoNumbers(num1, num2){
 
@@ -78,12 +78,22 @@ const userUser = {
     // popi: console.log("jaan hai tou jahan hai")
 }
 // console.log(userUser);
-
+// --------------------------------------------
 const coding = ["js", "python", "java", "cpp"]
 // coding.forEach( function (item){
 //     console.log(item);
 // })
 
-console.log("JS printing engineering");
+// console.log("JS printing engineering");
+// ----------------------------------------
+let arr = [1, 2, 3, 4, 5, 6, 6, 7, 8];
+
+let macroni = (value) => {
+//   console.log(value);
+};
+
+const bajirao = arr.forEach(macroni);
+// console.log(bajirao);
+// console.log(macroni);
 
 
