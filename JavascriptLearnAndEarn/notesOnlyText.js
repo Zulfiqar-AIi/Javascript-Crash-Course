@@ -11,3 +11,4 @@ console.log("Hello bhaooo");
 console.log("new ayao and khayo");
 
 // Events in JS contains: event bubbling and event capturing 
+// JS is a synchronous and single threaded language
