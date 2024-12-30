@@ -1,7 +1,7 @@
 let intervalId = null;
 
 // Function to generate a random color
-function getRandomColor() {
+function generateRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
     for (let i = 0; i < 6; i++) {
@@ -14,7 +14,7 @@ function getRandomColor() {
 document.getElementById('start').addEventListener('click', () => {
     if (!intervalId) {
         intervalId = setInterval(() => {
-            const newColor = getRandomColor();
+            const newColor = generateRandomColor();
             document.body.style.backgroundColor = newColor;
             document.querySelector('h1').innerHTML = `Background Color: ${newColor}`;
         }, 1000);
